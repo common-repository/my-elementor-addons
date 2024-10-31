@@ -1,0 +1,45 @@
+.team-member-name {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #151515;
+    font-size: 18px;
+}
+
+.team-member-figure {
+    display: inline-block;
+    margin: 0 0 16px!important;
+}
+
+.team-member-position {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #7f7f7f;
+}
+
+.team-member-links>a {
+    display: inline-block;
+    color: #9895ad;
+    text-align: center;
+    line-height: 1;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.team-member-bio {
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.team-member-links>a:focus, .team-member-links>a:hover {
+    color: #444;
+}
+
+.team-member-links>a>i {
+    width: 1em;
+    height: 1em;
+}
+
+.team-member-links>a:not(:last-child) {
+    margin-right: 10px;
+}

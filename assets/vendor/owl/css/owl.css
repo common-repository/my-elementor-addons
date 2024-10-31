@@ -1,0 +1,280 @@
+/*------------------------------------
+Carousel
+------------------------------------*/
+
+.testimonial-item .card-body{
+    text-align: center;
+}
+.testimonial-item .card-body{
+    padding: 3rem;
+}
+
+.testimonial-card .card-body img{
+    width: auto;
+    display: inline-block;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.testimonial-name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+.testimonial-designation {
+    line-height: 1rem;
+}
+
+.clients-thumb {
+    width: 100%;
+    max-width: 10rem;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: .5;
+}
+
+.clients-thumb:hover {
+    opacity: 1;
+}
+
+.dot-style-1.owl-theme .owl-dots .owl-dot span {
+    width: 6px;
+    height: 6px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #242424;
+}
+
+.dot-style-1.owl-theme .owl-dots .owl-dot.active span {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.dot-style-2.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #242424;
+    background: #ccc;
+}
+
+.dot-style-2.owl-theme .owl-dots .owl-dot.active span {
+    width: 20px;
+    height: 10px;
+    margin: 5px 3px;
+    background: #287dfe;
+}
+
+.owl-carousel.text-center .owl-stage {
+    display: inline-block;
+}
+
+.carousel-highlighter.owl-carousel .owl-item {
+    opacity: .2;
+}
+
+.carousel-highlighter.owl-carousel .owl-item .card-img-overlay {
+    opacity: 0;
+}
+
+.carousel-highlighter.owl-carousel .owl-item.center {
+    opacity: 1;
+}
+
+.carousel-highlighter.owl-carousel .owl-item.center .card-img-overlay {
+    opacity: 1;
+}
+
+.carousel-zoom-img .owl-stage-outer {
+    overflow: visible;
+}
+
+.carousel-zoom-img .owl-item .item h6 {
+    opacity: 0;
+}
+
+.carousel-zoom-img .owl-item.center .item {
+    position: relative;
+    z-index: 100;
+    -webkit-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+
+.carousel-zoom-img .owl-item.center .item h6 {
+    opacity: 1;
+}
+
+.carousel-zoom-img .owl-dots {
+    margin-top: 4rem;
+}
+
+.owl-theme .owl-nav,
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+}
+
+.nav-circle.owl-theme .owl-nav [class*=owl-],
+.nav-circle-light.owl-theme .owl-nav [class*=owl-],
+.nav-circle-solid-light.owl-theme .owl-nav [class*=owl-] {
+    font-size: 12px;
+    line-height: 50px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #8c8c8c;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.nav-circle.owl-theme .owl-nav [class*=owl-]:hover,
+.nav-circle-light.owl-theme .owl-nav [class*=owl-]:hover,
+.nav-circle-solid-light.owl-theme .owl-nav [class*=owl-]:hover {
+    color: #fff;
+    border-color: #242424;
+    background: #242424;
+}
+
+.nav-circle-light.owl-theme .owl-nav [class*=owl-]:hover {
+    color: #242424;
+    border-color: #fff;
+    background: #fff;
+}
+
+.nav-circle-solid-light.owl-theme .owl-nav [class*=owl-] {
+    color: #242424;
+    border-color: #fff;
+    background: #fff;
+}
+
+.nav-circle-solid-light.owl-theme .owl-nav [class*=owl-]:hover {
+    color: #fff;
+    border-color: #287dfe;
+    background: #287dfe;
+}
+
+.nav-round.owl-theme .owl-nav [class*=owl-] {
+    font-size: 12px;
+    line-height: 90px;
+    position: relative;
+    width: 40px;
+    height: 90px;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, .3);
+}
+
+.nav-round.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #242424;
+}
+
+.nav-round.owl-carousel .owl-nav .owl-prev,
+.nav-round.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+
+    margin-top: -90px;
+}
+
+.nav-round.owl-carousel .owl-nav .owl-prev {
+    left: -5px;
+
+    border-radius: 0 6px 6px 0;
+}
+
+.nav-round.owl-carousel .owl-nav .owl-next {
+    right: -5px;
+
+    border-radius: 6px 0 0 6px;
+}
+
+.custom-testimonial.owl-theme .owl-nav {
+    bottom: 2%;
+}
+
+.custom-testimonial.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+.custom-testimonial.owl-theme .owl-nav [class*=owl-] {
+    font-size: 12px;
+    line-height: 35px;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #8c8c8c;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.custom-testimonial.owl-theme .owl-nav [class*=owl-]:hover {
+    color: #fff;
+    border-color: #242424;
+    background: #242424;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+@media (min-width: 1025px) {
+
+    .nav-circle.owl-carousel .owl-nav .owl-prev,
+    .nav-circle.owl-carousel .owl-nav .owl-next,
+    .nav-circle-light.owl-carousel .owl-nav .owl-prev,
+    .nav-circle-light.owl-carousel .owl-nav .owl-next,
+    .nav-circle-solid-light.owl-carousel .owl-nav .owl-prev,
+    .nav-circle-solid-light.owl-carousel .owl-nav .owl-next,
+    .nav-inside.owl-carousel .owl-nav .owl-prev,
+    .nav-inside.owl-carousel .owl-nav .owl-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+    }
+
+    .nav-circle.owl-carousel .owl-nav .owl-prev,
+    .nav-circle-light.owl-carousel .owl-nav .owl-prev,
+    .nav-circle-solid-light.owl-carousel .owl-nav .owl-prev {
+        left: -8%;
+    }
+
+    .nav-circle.owl-carousel .owl-nav .owl-next,
+    .nav-circle-light.owl-carousel .owl-nav .owl-next,
+    .nav-circle-solid-light.owl-carousel .owl-nav .owl-next {
+        right: -8%;
+    }
+
+    .nav-inside.owl-carousel .owl-nav .owl-prev,
+    .nav-inside.owl-carousel .owl-nav .owl-prev {
+        left: 3%;
+    }
+
+    .nav-inside.owl-carousel .owl-nav .owl-next,
+    .nav-inside.owl-carousel .owl-nav .owl-next {
+        right: 3%;
+    }
+
+    .custom-testimonial.owl-theme .owl-nav {
+        position: absolute;
+        z-index: 100;
+        right: 11%;
+        bottom: 8%;
+
+        margin-top: 0;
+    }
+}
+
+.t-star-icon {
+    font-size: 8px;
+    position: relative;
+    bottom: 2px;
+}

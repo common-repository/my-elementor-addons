@@ -1,0 +1,88 @@
+/* Card */
+.my-card .elementor-widget-container {
+    transition: 0.3s;
+    text-align: left;
+    box-shadow: 0 3px 40px rgb(36 36 36 / 10%)
+}
+
+.my-card .elementor-widget-container:hover {
+    transition: 0.3s;
+}
+
+.my-card--left>.elementor-widget-container,
+.my-card--right>.elementor-widget-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+}
+
+.my-card--right>.elementor-widget-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.my-card--left .my-card-body,
+.my-card--left .card-box-image,
+.my-card--right .my-card-body,
+.my-card--right .card-box-image {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.card-box-image {
+    height: 250px;
+}
+
+.card-box-image img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.my-card-text {
+    margin-bottom: 2rem;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.my-card-body {
+    padding: 2rem;
+}
+
+.my-card-title {
+    margin-top: 0;
+    margin-bottom: .75rem;
+    color: #151515;
+    font-size: 22px;
+}
+
+.mybtn {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: .25rem;
+    background: #495057;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    transition: all .3s;
+}
+
+.mybtn:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+}

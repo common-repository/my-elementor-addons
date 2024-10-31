@@ -1,0 +1,46 @@
+/* Accrodion */
+.accordion-header {
+    padding: .5rem 1rem;
+}
+
+.accordion-header .title {
+    font-size: 17px;
+    color: #5a5a5a;
+    font-weight: 400;
+}
+
+.accordion-header .accicon {
+    float: right;
+    font-size: 16px;
+    width: 1.5em;
+}
+
+.accordion-header {
+    margin: 0;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.accrodion-content {
+    padding: 15px 20px;
+}
+
+.accrodion-content p {
+    font-weight: normal;
+}
+
+.collapsed .accicon.elementor-accordion-icon-closed {
+    display: block;
+}
+
+.collapsed .accicon.elementor-accordion-icon-opened {
+    display: none;
+}
+
+.accicon.elementor-accordion-icon-closed {
+    display: none;
+}
+
+.accordion-header:not(.collapsed) .rotate-icon {
+    transform: rotate(180deg);
+}

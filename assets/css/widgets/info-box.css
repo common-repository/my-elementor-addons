@@ -1,0 +1,49 @@
+/* Info box */
+.my-info-box .elementor-widget-container {
+    padding: 22px;
+}
+
+.my-info-box-figure {
+    display: inline-block;
+    line-height: 0;
+    color: #7143ff;
+    margin: 0 0 1.5rem;
+}
+
+.my-info-box-figure--icon {
+    font-size: 4rem;
+}
+
+.my-info-box-title {
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+
+.my-info-box-text {
+    margin-bottom: 1.5rem;
+}
+
+.my-info-box-text p {
+    margin-bottom: 0;
+}
+
+.my-btn {
+    font-weight: 400;
+    color: #562dd4;
+    display: inline-block;
+}
+
+.my-btn-icon--before {
+    margin-right: 6px;
+}
+
+.my-btn-icon--after {
+    margin-left: 6px;
+}
+
+.my-info-box-figure img {
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+}

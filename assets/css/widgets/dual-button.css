@@ -1,0 +1,83 @@
+/* Dual Button */
+.my-dual-button .elementor-widget-container {
+    display: flex;
+}
+
+.my-dual-button .my-dual-btn-wrapper {
+    max-width: 50%;
+}
+
+.dual-button-area {
+    justify-content: center;
+    display: flex;
+}
+
+.my-dual-btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 22px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.my-dual-btn--left {
+    color: #fff;
+    background-color: #5b00cd;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: calc(30px/2);
+}
+
+.my-dual-btn--left:hover {
+    color: #fff;
+    background-color: #9C27B0;
+    text-decoration: none;
+}
+
+.my-dual-btn--right {
+    color: #fff;
+    background-color: #FF9800;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.my-dual-btn--right:hover {
+    color: #fff;
+    background-color: #6da201;
+    text-decoration: none;
+}
+
+.my-dual-btn-icon--before {
+    margin-right: 4px;
+}
+
+.my-dual-btn-icon--after {
+    margin-left: 4px;
+}
+
+.my-dual-btn-icon>i {
+    font-size: 16px;
+}
+
+.my-dual-button--align-left>.elementor-widget-container {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.my-dual-button--align-center>.elementor-widget-container {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.my-dual-button--align-right>.elementor-widget-container {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}

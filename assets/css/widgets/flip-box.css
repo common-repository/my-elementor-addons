@@ -1,0 +1,162 @@
+/* Flip box */
+.my-flip-inner-wrapper {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+}
+
+.my-flip-side {
+    display: block;
+    min-height: 200px;
+    top: 0;
+    right: 0;
+    left: 0;
+    -webkit-transition: all .8s ease;
+    transition: all .8s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.my-flip--right-left .my-flip-inner-wrapper .my-flip-back {
+    transform: rotateY(180deg);
+    position: absolute;
+    z-index: -1;
+}
+
+.my-flip--right-left .my-flip-inner-wrapper:hover .my-flip-front {
+    transform: rotateY(-180deg);
+}
+
+.my-flip--right-left .my-flip-inner-wrapper:hover .my-flip-back {
+    transform: rotateY(0);
+}
+
+.my-flip--left-right .my-flip-inner-wrapper .my-flip-back {
+    transform: rotateY(-180deg);
+    color: #fff;
+    position: absolute;
+    z-index: -1;
+}
+
+.my-flip--left-right .my-flip-inner-wrapper:hover .my-flip-front {
+    transform: rotateY(180deg);
+}
+
+.my-flip--left-right .my-flip-inner-wrapper:hover .my-flip-back {
+    transform: rotateY(0);
+}
+
+.my-flip--bottom-top .my-flip-inner-wrapper .my-flip-back {
+    transform: rotateX(-180deg);
+    color: #fff;
+    position: absolute;
+    z-index: -1;
+}
+
+.my-flip--bottom-top .my-flip-inner-wrapper:hover .my-flip-front {
+    transform: rotateX(180deg);
+}
+
+.my-flip--bottom-top .my-flip-inner-wrapper:hover .my-flip-back {
+    transform: rotateX(0);
+}
+
+.my-flip-text p {
+    margin: 0;
+}
+
+.my-flip-image {
+    height: 15rem;
+    background-blend-mode: screen;
+}
+
+.my-flip-image img {
+    width: 100%;
+    height: 100%;
+    background-blend-mode: screen;
+    object-fit: cover;
+}
+
+.my-flip-back-image {
+    height: 15rem;
+    background-blend-mode: screen;
+}
+
+.my-flip-back-image img {
+    width: 100%;
+    height: 100%;
+    background-blend-mode: screen;
+    object-fit: cover;
+}
+
+.my-flip-heading {
+    margin: 0 0 15px;
+    padding: 0;
+    color: #000;
+    font-weight: 400;
+}
+
+.my-flip-back-heading {
+    margin: 0 0 15px;
+    padding: 0;
+    color: #000;
+    font-weight: 400;
+}
+
+.my-flip-details {
+    padding: 25px;
+}
+
+.my-flip-back-details {
+    padding: 25px;
+}
+
+.my-flip-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #7381fb;
+}
+
+.my-flip-back-icon {
+    margin: 0 0 15px;
+    font-size: 3rem;
+    color: #7381fb;
+}
+
+.my-flip-details .my-flip-text {
+    font-size: 15px;
+    color: #444;
+    margin: 0;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.my-flip-back-details .my-flip-back-text {
+    font-size: 15px;
+    margin: 0 0 16px;
+    color:#444;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.my-flip-back-inner ul {
+    list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+.my-flip-back-text ul li {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.8rem 0;
+}
+
+.my-flip-back-inner ul li:not(:last-child) {
+    border-bottom: 1px solid #ffffff;
+}
+
+.my-flip-btn {
+    font-size: 15px;
+    color: #000;
+}
